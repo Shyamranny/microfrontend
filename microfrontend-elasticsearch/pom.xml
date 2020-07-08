@@ -9,28 +9,18 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>scheduler</artifactId>
-
+    <artifactId>microfrontend-elasticsearch</artifactId>
     <dependencies>
         <dependency>
-            <groupId>com.shyam.caesars</groupId>
-            <artifactId>app-config</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-            <scope>compile</scope>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-elasticsearch</artifactId>
         </dependency>
         <dependency>
             <groupId>com.shyam.caesars</groupId>
-            <artifactId>rest-client</artifactId>
-            <version>0.0.1-SNAPSHOT</version>
-            <scope>compile</scope>
-        </dependency>
-        <dependency>
-            <groupId>com.shyam.caesars</groupId>
-            <artifactId>elasticsearch</artifactId>
+            <artifactId>microfrontend-core</artifactId>
             <version>0.0.1-SNAPSHOT</version>
             <scope>compile</scope>
         </dependency>
     </dependencies>
-
 
 </project>

@@ -4,12 +4,12 @@
 	<modelVersion>4.0.0</modelVersion>
 	<packaging>pom</packaging>
 	<modules>
-		<module>core</module>
-		<module>persistence</module>
-		<module>elasticsearch</module>
-        <module>scheduler</module>
-        <module>rest-client</module>
-        <module>app-config</module>
+		<module>microfrontend-core</module>
+		<module>microfrontend-persistence</module>
+		<module>microfrontend-elasticsearch</module>
+        <module>microfrontend-scheduler</module>
+        <module>microfrontend-rest-client</module>
+        <module>microfrontend-app-config</module>
     </modules>
 	<parent>
 		<groupId>org.springframework.boot</groupId>
