@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	targetNamespace="http://request.core.caesars.shyam.com"
+	elementFormDefault="qualified">
+
+	<xs:complexType name="SearchRequest">
+		<xs:sequence>
+			<xs:element type="xs:string" name="destinationAirport" minOccurs="0" />
+			<xs:element type="xs:string" name="fromDate" minOccurs="0" />
+			<xs:element type="xs:string" name="toDate" minOccurs="0" />
+		</xs:sequence>
+	</xs:complexType>
+	
+</xs:schema>
